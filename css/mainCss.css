@@ -1,6 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.div-titulo{
+    font-size: 1px;
+}
 .div-titulo__h1{
     color:#f00;
+    font-size: 50em;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .div-titulo__h3{
     color:#f29;
+    font-size: 20em;
+    font-family: 'Open Sans', sans-serif;
 }
