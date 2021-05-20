@@ -5,21 +5,41 @@
     background-color: black;
     color:white;
 }
+.nav{
+position: fixed;
+}
 .div-footer__p-b{
     background-color:gray;
     border-radius: 0.2em;
     border: 1px solid white;
+    box-shadow: 0.1em 0.4em 1.5em 0 white;
+    text-shadow: 0.01em 0.04em 0.07em red;
+}
+.div-logo{
+    display: inline-block;
 }
 .div-titulo{
     font-size: 1px;
+    display: inline-block;
 }
 .div-titulo__h1{
     color:#f00;
     font-size: 50em;
     font-family: 'Roboto', Arial, sans-serif;
+    display: inline-block;
 }
 .div-titulo__h3{
     color:#f29;
     font-size: 20em;
     font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+.div-nav{
+    display: inline-block;
+}
+.div-nav__ul{
+    display: inline-block;
+}
+.div-nav__ul-li{
+    display: inline-block;
 }
