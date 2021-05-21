@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ascadias</title>
+        <title>Portafolio MF</title>
         <meta charset="utf-8">
         <meta name="author" content="Marcelo Fernandez">
         <meta name="copyright" content="Ascadias SA.">
-        <meta name="description" content="Página de prueba">
+        <meta name="description" content="Portafolio v1">
         <meta name="keywords" content="web,desarrollo,programacion,javascript,nodejs,html,css,desarrollo web,diseño web">
         <link rel="icon" href="media/icon.ico">
         <link rel="stylesheet" type="text/css" href="css/mainCss.css">
@@ -13,6 +13,11 @@
         <script src="scripts/mainJs.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <noscript>
+            <h1>Se requiere Javascript</h1>
+            <p>No se puede usar esta pagina sin Javascript</p>
+        </noscript>
     </head>
     <body>
         <header>
@@ -27,9 +32,9 @@
                 <div class="div-nav">
                     <ul class="div-nav__ul">
                         <li class="div-nav__ul-li"><a href="index.html">Inicio</a></li> 
-                        <li class="div-nav__ul-li"><a href="aboutUs.html">Sobre Nosotros</a></li>
-                        <li class="div-nav__ul-li"><a href="experience.html">Experiencia</a></li>
-                        <li class="div-nav__ul-li"><a href="projects.html">Proyecto</a></li>
+                        <li class="div-nav__ul-li"><a href="#aboutMe">Sobre mi</a></li>
+                        <li class="div-nav__ul-li"><a href="#skills">Habilidades</a></li>
+                        <li class="div-nav__ul-li"><a href="#tools">Herramientas</a></li>
                         <li class="div-nav__ul-li"><a href="contact.html">Contacto</a></li>
                     </ul>
                 </div>
@@ -37,8 +42,47 @@
         </header>
         <article>
             <section>
-                <div class="div-content">
-                    <h5 class="div-content__h5">Contenido de la página</h5>
+                <div class="div-content" id="Home">
+                    <h5 class="div-content__h5">Hola!, soy Marcelo Fernández</h5>
+                    <p class="div-content__p">Desarrollador Web FullStack Junior</p>
+                    <p class="div-content__p">Especializado en JavaScripts y NodeJS</p>
+                </div>
+            </section>
+            <section>
+                <div class="div-aboutMe" id="aboutMe">
+                    <h2 class="div-aboutMe__h2">Sobre mi</h2>
+                    <h6 class="div-aboutMe__h6">Más información acerca de mi y lo que hago</h6>
+                    <h6 class="div-aboutMe__h6"></h6>
+                    <a href="" class="div-aboutMe__a" id="CV" target="_blank">
+                        <button class="div-aboutMe__a-button" id="CV-Btn">
+                            <h6 class="div-aboutMe__a-button-h6">Descarga mi CV</h6>
+                        </button>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="div-skills" id="skills">
+                    <h5 class="div-skills__h5">Conocimientos</h5>
+                    <ul class="div-skills__ul">
+                        <li class="div-skills__ul-li">HTML5</li>
+                        <li class="div-skills__ul-li">CSS3</li>
+                        <li class="div-skills__ul-li">JAVASCRIPT</li>
+                        <li class="div-skills__ul-li">NODEJS</li>
+                        <li class="div-skills__ul-li">FIREBASE</li>
+                        <li class="div-skills__ul-li">BOOTSTRAP</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="div-tools" id="tools">
+                    <h5 class="div-tools__h5">Herramientas</h5>
+                    <ul class="div-tools__ul">
+                        <li class="div-tools__ul-li">Visual Code</li>
+                        <li class="div-tools__ul-li">GitHub</li>
+                        <li class="div-tools__ul-li">Git</li>
+                        <li class="div-tools__ul-li">NPM</li>
+                        <li class="div-tools__ul-li">Photoshop</li>
+                    </ul>
                 </div>
             </section>
         </article>

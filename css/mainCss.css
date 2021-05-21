@@ -2,8 +2,22 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
-    color:white;
+    font-size: 16px;
+    background-color: #212529;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h6{
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .nav{
 position: fixed;
@@ -42,4 +56,25 @@ position: fixed;
 }
 .div-nav__ul-li{
     display: inline-block;
+}
+.div-aboutMe__a{   
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.div-aboutMe__a-button{
+    outline: none;
+    margin-top: 20px;
+    font-size: 19px;
+    border-radius: 10px;
+    color: rgb(37, 46, 107);
+    text-transform: none;
+    height: 50px;
+
+}
+.div-aboutMe__a-button-h6{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
 }
